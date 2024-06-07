@@ -1,0 +1,9 @@
+body {
+    background-color: rgb(185, 145, 92);
+}
+
+#navbar {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}

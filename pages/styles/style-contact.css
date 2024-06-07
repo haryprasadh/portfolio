@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(185, 145, 92);
+}
+
+#navbar {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+#main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: brown;
+    text-decoration: underline;
+}
+

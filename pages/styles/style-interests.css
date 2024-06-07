@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(185, 145, 92);
+}
+
+#navbar {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+#main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#heading{
+    color: brown;
+    text-decoration: underline;
+}
+
+h3{
+    color: black;
+    text-decoration: underline;
+}
+li{
+    color: darkgreen;
+}
+
+.section{
+    background-color: bisque;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#container{
+    display: flex;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-top: 10vh;
+    gap: 5vw;
+}
+
+@media(width<500px){
+    #container{
+        flex-direction: column;
+    }
+}
