@@ -19,3 +19,7 @@ h1 {
     color: brown;
     text-decoration: underline;
 }
+
+#top-greet{
+    width: 50vw;
+}

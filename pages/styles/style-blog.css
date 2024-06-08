@@ -7,3 +7,20 @@ body {
     gap: 15px;
     justify-content: center;
 }
+
+#blog-link{
+    background-color: brown;
+    padding: 8px;
+    border-radius: 5px;
+    color: aliceblue;
+    text-decoration-line: none;
+    text-transform: uppercase;
+    max-width: 70vw;
+}
+
+#main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

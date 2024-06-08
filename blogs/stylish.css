@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(185, 145, 92);
+    
+}
+
+#header,#trailer{
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+
+#heading{
+    text-transform: uppercase;
+    text-decoration-line: underline;
+    color: brown;
+}
+#dates{
+    color: black;
+}
+img{
+    width: 40vw;
+}
+p{ 
+    margin: 2px;
+}
