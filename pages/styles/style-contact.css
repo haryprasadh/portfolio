@@ -8,15 +8,14 @@ body {
     justify-content: center;
 }
 
-#main-content{
+#main-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-h1{
+h1 {
     color: brown;
     text-decoration: underline;
 }
-

@@ -8,8 +8,7 @@ body{
     justify-content: center;
 }
 
-#dp{
-    width: 18%;
+#dp{  
     border-radius: 5px;
 }
 
@@ -26,4 +25,16 @@ body{
 
 #description{
     width: 70vw;
+}
+
+@media(width<550px ){
+    #dp{
+        width: 45vw;
+    }
+}
+ 
+@media(width>= 550px){
+    #dp{
+        width:20vw;
+    }
 }
