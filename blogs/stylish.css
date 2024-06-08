@@ -15,12 +15,18 @@ body {
     text-decoration-line: underline;
     color: brown;
 }
-#dates{
+#dates,#dates2{
     color: black;
 }
 img{
     width: 40vw;
 }
-p{ 
-    margin: 2px;
+
+@media(width<480px){
+    ul{
+        width: 80vw;
+    }
+    img{
+        width: 60vw;
+    }
 }
